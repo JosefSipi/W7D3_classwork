@@ -204,3 +204,975 @@
   [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "pv5Se_IOMtANfUQXQ9hhhA"], ["updated_at", "2021-04-07 19:34:02.937687"], ["id", 6]]
   [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Mort Tallity"], ["password_digest", "$2a$12$Z4IMXemC3oiXZPomrzWs/u6fePn6lrSyNIA9UiilIi5weYtgwyuz2"], ["session_token", "jGUOvswAvcxN92UDPcqi3Q"], ["created_at", "2021-04-07 20:02:14.654907"], ["updated_at", "2021-04-07 20:02:14.654907"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Carlotta Tendant"], ["password_digest", "$2a$12$6klXTrJPh85ShfDe65CcGug3WYWsXx6rAdb/xVaTbeLbtmh3XHlda"], ["session_token", "_xmSKv24g1ErZK5Gl0AQKA"], ["created_at", "2021-04-07 20:02:14.849395"], ["updated_at", "2021-04-07 20:02:14.849395"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Didi Reelydoit"], ["password_digest", "$2a$12$RY1CFz/Fo41IJ94bjtO7mOR/Xpfp2gyC2lkjayblxw8pR23Ylx4E2"], ["session_token", "MKU_9WopQ5dkYrNUuSkmIA"], ["created_at", "2021-04-07 20:02:15.059898"], ["updated_at", "2021-04-07 20:02:15.059898"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Hy Marx"], ["password_digest", "$2a$12$ZgfCCwDZ4ro73SDRZqM2CO21EJzUwqS9AG4DOZV7QwsgcmrVCv1qy"], ["session_token", "yOkVPJBk30IdFpg7jvfEVQ"], ["created_at", "2021-04-07 20:02:15.256004"], ["updated_at", "2021-04-07 20:02:15.256004"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.8ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Bonnie Ann Clyde"], ["password_digest", "$2a$12$nn2sqWNe3tyM4nxfqOkNKeSe/YKZvTaPLBaQUV/W/Apjd6tBE9YXO"], ["session_token", "Brojw2Rj0brDTEQ82pD6QA"], ["created_at", "2021-04-07 20:02:15.461113"], ["updated_at", "2021-04-07 20:02:15.461113"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Juan Fortharoad"], ["password_digest", "$2a$12$K1YM2axyFm9meuqAif3F6Oecp8tbyQa.USxMu6cM51JN52vAZjD22"], ["session_token", "TdunmPsbu6miykNWknNDbw"], ["created_at", "2021-04-07 20:02:15.660294"], ["updated_at", "2021-04-07 20:02:15.660294"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.4ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "EkWutOXe-zR4C_d94eLtLQ"], ["updated_at", "2021-04-07 20:02:15.663404"], ["id", 16]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Dan Geruss"], ["password_digest", "$2a$12$ryLhMNpP8pUg5sqC1yXPkOGQwiip2gaTBYmD7Ixu/hzgygIhRy9.W"], ["session_token", "Ejt2dw02A0XdThhKP2c5Dg"], ["created_at", "2021-04-07 20:02:15.857296"], ["updated_at", "2021-04-07 20:02:15.857296"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "FOu-h3rEduOrhPJaMn4a1w"], ["updated_at", "2021-04-07 20:02:15.858969"], ["id", 17]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "May K. Fist"], ["password_digest", "$2a$12$BnlZ.Mmxt.ln4w5tWf0t6uWb4/p.erBk26EWFIzzgxCXzjiqyxy9q"], ["session_token", "2AzU-RyiKiJFFIh0etRhiw"], ["created_at", "2021-04-07 20:02:16.062609"], ["updated_at", "2021-04-07 20:02:16.062609"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "XomnjwqVk5DccWZdCpZTbw"], ["updated_at", "2021-04-07 20:02:16.064395"], ["id", 18]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Mike Raffone"], ["password_digest", "$2a$12$6/21GSDQUfTaMF.7.D/I9OUQ5.iifNvXPaG/boewRAYaVt/iMqEeq"], ["session_token", "E7-hoF93-o1gK0DyGTfWSQ"], ["created_at", "2021-04-07 20:03:13.705629"], ["updated_at", "2021-04-07 20:03:13.705629"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Peg Legge"], ["password_digest", "$2a$12$DGsdI3el7xfv02IlEVXgpuy9MdxjatQnTHxpjclF8w8iFZTzsGLHe"], ["session_token", "jvsnok4fzHUpD3RdArCyBQ"], ["created_at", "2021-04-07 20:03:13.897493"], ["updated_at", "2021-04-07 20:03:13.897493"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Ben D. Fender"], ["password_digest", "$2a$12$KZXtmW0ofBinKh.PoIp8ruPHOJVN./MN2SDcAFzJ2gZ1xgqlv4i.C"], ["session_token", "mLktRnpEwZxC08IqdgzTNQ"], ["created_at", "2021-04-07 20:03:14.098251"], ["updated_at", "2021-04-07 20:03:14.098251"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Marcus Absent"], ["password_digest", "$2a$12$hTISmD2Ji1mJBqHqWJeW6.pBrFo73gBAIhfMquFPFz0.w14J9xry2"], ["session_token", "WGXixpFQ0Fz9VfY8I4_xEg"], ["created_at", "2021-04-07 20:03:14.478320"], ["updated_at", "2021-04-07 20:03:14.478320"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Bonnie Ann Clyde"], ["password_digest", "$2a$12$o5a3dd1dO4yaSpjvNEAYJeOnKkZGZm1WpTS3jV1tegVKFgsaouh9."], ["session_token", "CyDECtCdI_yrF3fgHfoz3w"], ["created_at", "2021-04-07 20:03:14.869859"], ["updated_at", "2021-04-07 20:03:14.869859"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Xavier Breath"], ["password_digest", "$2a$12$4/RX2JvxiGONXxjICUiG8uk5orhFj1EPsGAHP9XJ8vbKe3I0UptGi"], ["session_token", "kAZc0L3gegEa0ah09d5vBQ"], ["created_at", "2021-04-07 20:03:15.067569"], ["updated_at", "2021-04-07 20:03:15.067569"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "MGauuqEB8rxiYCrr_DacFw"], ["updated_at", "2021-04-07 20:03:15.069004"], ["id", 24]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Lois Price"], ["password_digest", "$2a$12$87OQHxRAsVuPB4UtRbxFXuVr8cVWz9xAuGljXYIyjb/CkGGgjpdi."], ["session_token", "XIDDJOAJvHHDrxqybcjRTg"], ["created_at", "2021-04-07 20:03:15.260794"], ["updated_at", "2021-04-07 20:03:15.260794"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "4O4Teqj9LG-F8LJd8yZVBg"], ["updated_at", "2021-04-07 20:03:15.262863"], ["id", 25]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Jimmy DeLocke"], ["password_digest", "$2a$12$9Yeu6s3F7nFMei9bzk2ZfeJhCOo9Obm./HDGreKoyJ4Crtzs8nqgG"], ["session_token", "9UtDQsd5ND6_wZK-zV7KUg"], ["created_at", "2021-04-07 20:03:15.458833"], ["updated_at", "2021-04-07 20:03:15.458833"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "_8u82Pgv74HpM420zIVGqA"], ["updated_at", "2021-04-07 20:03:15.460641"], ["id", 26]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Sue Shi"], ["password_digest", "$2a$12$tlNG4qvNxb0aWYKcV.9Xq.B.zoqoRAxMSECn6WHhcHaXvyrXfzRwK"], ["session_token", "cJi7leBdAlZR5kzW35SDlg"], ["created_at", "2021-04-07 20:18:30.222147"], ["updated_at", "2021-04-07 20:18:30.222147"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Tim Burr"], ["password_digest", "$2a$12$0zOUW1l8D0Fh.tZpLiPX2OLzgAkgf0bGSejb8i8KFByMtbSCQ0zge"], ["session_token", "y8r9crUsXoMl-tEWbklo_w"], ["created_at", "2021-04-07 20:18:30.419990"], ["updated_at", "2021-04-07 20:18:30.419990"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Anne T. Lope"], ["password_digest", "$2a$12$cjuSylAeHDfg9PzOSXmrkufLtyQ5jDgTpDz83UngOnkOTDlb8B.GO"], ["session_token", "6M2d7tYxRdHmKu2DDk3a7w"], ["created_at", "2021-04-07 20:18:30.620689"], ["updated_at", "2021-04-07 20:18:30.620689"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Rex Karrs"], ["password_digest", "$2a$12$QnWSv9ey6B69ar6ErGdqOe62mXqlYeEgRMIHPNLlxOq7UCxPrRzUS"], ["session_token", "8n2Sw72J4F0bFldbh-kdiA"], ["created_at", "2021-04-07 20:18:31.008123"], ["updated_at", "2021-04-07 20:18:31.008123"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "john"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "john"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Willie Maykit"], ["password_digest", "$2a$12$Hs25CgLHbJrH8QB/49H.D.sPWhBmlTNwjkLTFPgHGj3tFFxbA6q9e"], ["session_token", "uVhCC8OYMCyPmuSwbFut6Q"], ["created_at", "2021-04-07 20:18:31.595944"], ["updated_at", "2021-04-07 20:18:31.595944"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Minnie Skurt"], ["password_digest", "$2a$12$gU8LeKapk7fFZrbcX/y2du9geT9sak5ZfAHqvcAw8h9jhh56Q9Bei"], ["session_token", "7rQzt4CdQwuFoBiDFAQ3CA"], ["created_at", "2021-04-07 20:18:31.796359"], ["updated_at", "2021-04-07 20:18:31.796359"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "BZv8gnTHfj4At67booWTQg"], ["updated_at", "2021-04-07 20:18:31.797860"], ["id", 32]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Curt N. Rodd"], ["password_digest", "$2a$12$Raz45125v0T0tCbK2lGz1eBbzL4t1afnqIz06KjkGa4mfj25qPM1K"], ["session_token", "jtbynNzW3mZhubOnhlJVWQ"], ["created_at", "2021-04-07 20:18:31.990382"], ["updated_at", "2021-04-07 20:18:31.990382"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "QRywF_AwB62nV5dHIUt93g"], ["updated_at", "2021-04-07 20:18:31.992379"], ["id", 33]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Tommy Gunn"], ["password_digest", "$2a$12$3oSrC5kkTGqHcBvfQ/nJeeUC/2GxH84ywXFFiyuJVFY0z2BQiTn6q"], ["session_token", "V1yiz4A7c7iyW52hDcNtnQ"], ["created_at", "2021-04-07 20:18:32.184589"], ["updated_at", "2021-04-07 20:18:32.184589"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "L_TbBVXAl5iTebKCc-0j5Q"], ["updated_at", "2021-04-07 20:18:32.186676"], ["id", 34]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Justin Sane"], ["password_digest", "$2a$12$qoFK1hsxVzUeFkIEY.yxTe0eqmVsREkf833OLfiWdwvUXEHBxbU7W"], ["session_token", "9tM3wVJ7H5l6-o3Jlezp1g"], ["created_at", "2021-04-07 20:19:31.804898"], ["updated_at", "2021-04-07 20:19:31.804898"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Ty Tass"], ["password_digest", "$2a$12$YmgICsz0kGLuUBo1O94.ZujaW4FJ8ScN8Wcs/nQKqtlaFgItv2pby"], ["session_token", "ATatslFKLUseHXQUO1T1lg"], ["created_at", "2021-04-07 20:19:32.002771"], ["updated_at", "2021-04-07 20:19:32.002771"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Mel Loewe"], ["password_digest", "$2a$12$pPIzhjK2ndZoTOuvV3HJauVJWrBoG7B3CBuAPZVH6W3hORk/lscKq"], ["session_token", "5CDMocHK8T6jCEd6mOQVig"], ["created_at", "2021-04-07 20:19:32.202051"], ["updated_at", "2021-04-07 20:19:32.202051"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Zeke N. Yeshallfind"], ["password_digest", "$2a$12$VlYAX1nN3cD6.uPhIckY0OlMXaDYCEXegQZQoLzmiPmNxj6P8qGWW"], ["session_token", "-KcCYSizKhe8JTchfjhR9A"], ["created_at", "2021-04-07 20:19:32.593067"], ["updated_at", "2021-04-07 20:19:32.593067"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "john"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "john"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Milton Yermouth"], ["password_digest", "$2a$12$w2IzsmPX2j3cH43G5Z/Ud.Ink.EeTj.RW.hALdcaZOcCHsTifRzI2"], ["session_token", "vz2uGkOPQjIYRagAh7LqdA"], ["created_at", "2021-04-07 20:19:33.182211"], ["updated_at", "2021-04-07 20:19:33.182211"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Otto Carr"], ["password_digest", "$2a$12$mQOWmgWINBp5SQsGTMcz7eOwWB87h8AK2mb2Lryx7MXCF.JxtwO32"], ["session_token", "RtNy1zuVWy703IxbVAv6Mw"], ["created_at", "2021-04-07 20:19:33.378174"], ["updated_at", "2021-04-07 20:19:33.378174"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.4ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "AgByE3J20L84v8JruI-P1Q"], ["updated_at", "2021-04-07 20:19:33.380094"], ["id", 40]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Howe D. Pardner"], ["password_digest", "$2a$12$yELIWDYcrRPHZFszz2mGfOVM62lZwgJujen7GcX145XeatFM0NlSa"], ["session_token", "k3G7zu-bu_65W7Zb8r4CNw"], ["created_at", "2021-04-07 20:19:33.571373"], ["updated_at", "2021-04-07 20:19:33.571373"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "-AUZxUQrkr3ncaIAuqadnQ"], ["updated_at", "2021-04-07 20:19:33.573361"], ["id", 41]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.8ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Penny Wise"], ["password_digest", "$2a$12$SzdTAps2nft15TyfhsBAhOCXMSev/mmgOVrd7L4lt5lQScjCvddXW"], ["session_token", "0ZiyNNlN9erm9Otin_-p1g"], ["created_at", "2021-04-07 20:19:33.776292"], ["updated_at", "2021-04-07 20:19:33.776292"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "Ai5Rge3TOk8SIMn-sHM-IA"], ["updated_at", "2021-04-07 20:19:33.778699"], ["id", 42]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Iona Corolla"], ["password_digest", "$2a$12$IF/WvqigN.mqu5ancQKGX.eNMKjO9FVJoN8xlyx.5rdlhQagdaTSK"], ["session_token", "PqfmxQF8f-PaN95aropGzQ"], ["created_at", "2021-04-07 20:24:45.824546"], ["updated_at", "2021-04-07 20:24:45.824546"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Pat Pending"], ["password_digest", "$2a$12$EuRa.w.o1zzM39WK7J7Wne7.3pynQN7u6OX4HRauMLkAMEReTiTQe"], ["session_token", "lNezsYjda60Zsi5WXtfKmQ"], ["created_at", "2021-04-07 20:24:46.033534"], ["updated_at", "2021-04-07 20:24:46.033534"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Barry D. Hatchett"], ["password_digest", "$2a$12$zNUz2Q158RvBvt0cCx6ChOVL8dHMq9BUCvKX2CHDF2S9MFAm4Sqca"], ["session_token", "JUgMPcb4HNJJM8yYFvAXZQ"], ["created_at", "2021-04-07 20:24:46.237460"], ["updated_at", "2021-04-07 20:24:46.237460"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Xavier Money"], ["password_digest", "$2a$12$Z3dVDliBki2OmR8aEqo5JOENvnWh1E28EVDlYvROTGpYnoUaDItsO"], ["session_token", "rt7QiZ6KXJ_r0wi-BHNtDA"], ["created_at", "2021-04-07 20:24:46.634080"], ["updated_at", "2021-04-07 20:24:46.634080"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "john"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$vRa6xEgbKVCQQkw8ZlgPC.bnLgCZEU0tgqGOZfKmNJNhcnneHWFhO"], ["session_token", "m6I81ayDG7o11sni_RVeDA"], ["created_at", "2021-04-07 20:24:47.021783"], ["updated_at", "2021-04-07 20:24:47.021783"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "john"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Bill Dollar"], ["password_digest", "$2a$12$MY3iY7jKPl9rtHxToWX8R.xtetkx5A.Y8e2Tj.AWuo2LugdhrJh36"], ["session_token", "Rg-Y8fm6my6r0YCWiV7ZIw"], ["created_at", "2021-04-07 20:24:47.223320"], ["updated_at", "2021-04-07 20:24:47.223320"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Bob Frapples"], ["password_digest", "$2a$12$rx3G1M/d09e1XWVTyCYIG.FXAXFeWT/ve9KJajiQf9QORQSC9OFvu"], ["session_token", "zzu5JTGeLPRw37wsv1voCA"], ["created_at", "2021-04-07 20:24:47.423506"], ["updated_at", "2021-04-07 20:24:47.423506"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "oTliztEr55CXKBxNeEF-kw"], ["updated_at", "2021-04-07 20:24:47.426391"], ["id", 49]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Bob Katz"], ["password_digest", "$2a$12$8Qllw0107cCMLCPSYzwSwe/OevkiSbvLyGSW10cvOS8DUoFDs//Em"], ["session_token", "x45WB2ghhGIgHUrd-Fa_-w"], ["created_at", "2021-04-07 20:24:47.632180"], ["updated_at", "2021-04-07 20:24:47.632180"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "XrUGGYPIqBhFstanDRdcBA"], ["updated_at", "2021-04-07 20:24:47.633487"], ["id", 50]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Brock Lee"], ["password_digest", "$2a$12$suHVx9eWN4fMXVLU2JlxIuhjOoplpY56fMRIVEMfTUsyZ6/9dWUzK"], ["session_token", "-qYxddnch6lU7nz0KlWufg"], ["created_at", "2021-04-07 20:24:47.831011"], ["updated_at", "2021-04-07 20:24:47.831011"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "bGyF2_xewhHQmQKFyVjWLA"], ["updated_at", "2021-04-07 20:24:47.832440"], ["id", 51]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Rusty Keyes"], ["password_digest", "$2a$12$wZZ9ekfU4fpUZCtnLs31yOf8dEk0iVkYY8qFQt6vgj2br9Pe4h8Fe"], ["session_token", "pYi5JVotCOpwtN1tg57u7Q"], ["created_at", "2021-04-07 20:25:05.291434"], ["updated_at", "2021-04-07 20:25:05.291434"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Pearl E. Whites"], ["password_digest", "$2a$12$uHhg0RTGKj7CsINmHCZFOOz2ql.bDsH3s7LTB/Y8NPMwHpw0pOGEa"], ["session_token", "duXMSZgKoqpgYBgPw6ZBkw"], ["created_at", "2021-04-07 20:25:05.482170"], ["updated_at", "2021-04-07 20:25:05.482170"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Claire Annette Reed"], ["password_digest", "$2a$12$50CxRgxx4WFnDVNdkXhldeqOL/GK9SRcPMSjNUb5beMITs6Mr5FVq"], ["session_token", "kwFuwI6p-K2SVobxV8hlMA"], ["created_at", "2021-04-07 20:25:05.690427"], ["updated_at", "2021-04-07 20:25:05.690427"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Hayden Seek"], ["password_digest", "$2a$12$o7k.N52jwKvVHDEmOTS3huQqZzQPw1fImL667bOAGBoB6Rztq9BEy"], ["session_token", "HmCNHDyF6YoYtyhyNl_E6Q"], ["created_at", "2021-04-07 20:25:06.072571"], ["updated_at", "2021-04-07 20:25:06.072571"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "john"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$Rb.0nmJUxdKvAW7Qr1HYXOvk7iAKjdz0Twquwdnhzss5IRlG3bamq"], ["session_token", "rh-qhsxoFs6Ez3q_bMd54A"], ["created_at", "2021-04-07 20:25:06.459184"], ["updated_at", "2021-04-07 20:25:06.459184"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "john"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Lou Stooth"], ["password_digest", "$2a$12$9TfMvnsy84MxzBNmNZp3zOYMcua7rY57sLWnvXQQjXUIvsJ9rXI5W"], ["session_token", "5PEmYMUQXUvpy5R16VLdrg"], ["created_at", "2021-04-07 20:25:06.661525"], ["updated_at", "2021-04-07 20:25:06.661525"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Aaron Thetires"], ["password_digest", "$2a$12$W6Psm4w4tp7Tnxzj/whMpu1SKoCCIy54z/faxDcTJt.itNMwlzUv6"], ["session_token", "Xl10uFNb11YPr2Bp59PPkg"], ["created_at", "2021-04-07 20:25:06.862738"], ["updated_at", "2021-04-07 20:25:06.862738"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "a9-fEgcdS0_lYYcB-atuvg"], ["updated_at", "2021-04-07 20:25:06.864718"], ["id", 58]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Dee Kay"], ["password_digest", "$2a$12$gcZtibZyfBToQ4JV7j/10evfVKpW/wZOa1usHoVAFHZrGQRnISc1."], ["session_token", "LGUH3qFVhsGE0aDV_8WeXQ"], ["created_at", "2021-04-07 20:25:07.064409"], ["updated_at", "2021-04-07 20:25:07.064409"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "0iEKDw-ZuQxXXLyVtoshgw"], ["updated_at", "2021-04-07 20:25:07.065949"], ["id", 59]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Ivan Oder"], ["password_digest", "$2a$12$0TkL3xrWTtyMaTJP2xzsWOa/FNxOsOL/R9P8Xg1LCndpepRkSWHJq"], ["session_token", "IZIW_xcWQC9-SH1kwT9FWQ"], ["created_at", "2021-04-07 20:25:07.255762"], ["updated_at", "2021-04-07 20:25:07.255762"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "gAP8AQo_0cRT1MHthxepvw"], ["updated_at", "2021-04-07 20:25:07.259111"], ["id", 60]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Leo Tarred"], ["password_digest", "$2a$12$d/lCVupKLwyP9ZAuObrALOQkHWWHdt5/JPqycQ3m4TKtmhZgxoARG"], ["session_token", "_8wRRoPxkfpD6aPgCHQ4wQ"], ["created_at", "2021-04-07 20:29:32.021531"], ["updated_at", "2021-04-07 20:29:32.021531"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Adam Bomb"], ["password_digest", "$2a$12$kyTN5Kc5bdGYUS6x07w1huCJEI82/mXNGFWPKy..SfByyT2T8Ab02"], ["session_token", "nMAvRK5XOMYD6XKRLdPhfg"], ["created_at", "2021-04-07 20:29:32.215397"], ["updated_at", "2021-04-07 20:29:32.215397"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Mary Gold"], ["password_digest", "$2a$12$1FZsYfIO86vJtZhvjtO4IOroX9hEuBwkVasp99bpqDtiezWmATGLu"], ["session_token", "2FP22eWOwJBUE1AHOxR7uw"], ["created_at", "2021-04-07 20:29:32.414348"], ["updated_at", "2021-04-07 20:29:32.414348"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Winnie Bago"], ["password_digest", "$2a$12$gg3IuhdPNwcOEd7fhcbXluQyhSHij8dIwpV/9kA295iEd4OiIzP0G"], ["session_token", "_SFeufDn6bMDBSXZoeIyHA"], ["created_at", "2021-04-07 20:29:32.798674"], ["updated_at", "2021-04-07 20:29:32.798674"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$xKuFGvfGNMtmpogdcFSHied7YHOmefaZ0lulpbwQZ6TsleO/9sdV2"], ["session_token", "N3KSNXW7u9m7QILZo4vUuw"], ["created_at", "2021-04-07 20:29:33.186417"], ["updated_at", "2021-04-07 20:29:33.186417"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "john"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$ZFaqFhF4KwLcncq6VDs8q.PpYLbERRGU5q.WIS5DySEmdFlmyC7Nu"], ["session_token", "LNH2HyF-bkWX_SCODgoeYQ"], ["created_at", "2021-04-07 20:29:33.575381"], ["updated_at", "2021-04-07 20:29:33.575381"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "john"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Candice B. Fureal"], ["password_digest", "$2a$12$OUqajKxZurKCcUkTrrXLk.4njoQAx6GxSxOBwNLDISODURqNkfuZa"], ["session_token", "m9aZ5DqirbNa6gGjCeVwEA"], ["created_at", "2021-04-07 20:29:33.965886"], ["updated_at", "2021-04-07 20:29:33.965886"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Quint S. Henschel"], ["password_digest", "$2a$12$2UEAxTxjF8Yf8GGQ42VZleRYxyxJvdPyWmbaS1VGR7Cz63hU1tz9q"], ["session_token", "s5QObBxmfevvEVY4RKWj0g"], ["created_at", "2021-04-07 20:29:34.164176"], ["updated_at", "2021-04-07 20:29:34.164176"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "uJ-d7i1_--P0iVVSBnvdpg"], ["updated_at", "2021-04-07 20:29:34.165769"], ["id", 68]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Samson Night"], ["password_digest", "$2a$12$HACHlhT0g5XZp7RFwDWYIOJP8L/VxH5TaCmRPLum2qXWxhIJuKQmq"], ["session_token", "cjOvEuSk6ckrv0jhFpnd1A"], ["created_at", "2021-04-07 20:29:34.356622"], ["updated_at", "2021-04-07 20:29:34.356622"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "-bTGtnmBV3n-vEUniyaFOg"], ["updated_at", "2021-04-07 20:29:34.358392"], ["id", 69]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Sy Burnette"], ["password_digest", "$2a$12$ow0GfT7fD/FzmC9EyfGq4ekX9w4/j6A52Q1V9bRhvrW5F79j.vOgS"], ["session_token", "0uhh0i1ZVBTyS_Dht4MyLA"], ["created_at", "2021-04-07 20:29:34.551152"], ["updated_at", "2021-04-07 20:29:34.551152"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "6Fug3EeWx8SiA1wGAnPx0g"], ["updated_at", "2021-04-07 20:29:34.552877"], ["id", 70]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Rip Tile"], ["password_digest", "$2a$12$qO7irtWaj.b.QNi/wra8veSgnz1CnXC.JU0LfHGor0JVyg7C8VEfu"], ["session_token", "qz9W9LaY1lx_KOKnqdKmXA"], ["created_at", "2021-04-07 20:29:52.528797"], ["updated_at", "2021-04-07 20:29:52.528797"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Quimby Ingmeen"], ["password_digest", "$2a$12$WGXgkFiEBlHxGpSw3YHlQ.lMCeEMaaNISTaK.woKstMUnnWiRYDpC"], ["session_token", "LHn04F17yp9mmTrkAOeYWw"], ["created_at", "2021-04-07 20:29:52.729512"], ["updated_at", "2021-04-07 20:29:52.729512"]]
+  [1m[35m (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Royal Payne"], ["password_digest", "$2a$12$GfJIuoa/KbdgiNwx34qKZOIqwxf.rYNBO/Bw4IYbbW3ndXxG4q6Lu"], ["session_token", "QpmaP5UVjJzojFAjUozLhg"], ["created_at", "2021-04-07 20:29:52.934941"], ["updated_at", "2021-04-07 20:29:52.934941"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Hal E. Luya"], ["password_digest", "$2a$12$SF2UKGejDDBg6egGjKKIXeTWSWwZiyuDVSzEXp7bepakjMZGA8HFm"], ["session_token", "cTzfgPh282u71t6e6_D5tg"], ["created_at", "2021-04-07 20:29:53.315096"], ["updated_at", "2021-04-07 20:29:53.315096"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$l.FuK8k7MK/o7lrAIWonU.1UWqxs9VykHvEJUaAzPFN0l1n9IWpEe"], ["session_token", "bC-Mdec5jrfaP3LeBPdS9g"], ["created_at", "2021-04-07 20:29:53.701738"], ["updated_at", "2021-04-07 20:29:53.701738"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "john"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (1.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$yEWTNLFJOjz69OyMSg71c.0scBX1okFNIgFTK0ZvADy.KLeld5t4q"], ["session_token", "Sx4xBty6XNl9CTT6WN1X5A"], ["created_at", "2021-04-07 20:29:54.083965"], ["updated_at", "2021-04-07 20:29:54.083965"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "john"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Chanda Lear"], ["password_digest", "$2a$12$/FsFUx/bjVCezbNTI16luudO37JrOgwTXlGxzwNiBf1bJI1U2b2hu"], ["session_token", "6sfzW0GRjPOvVJj5aGw1dw"], ["created_at", "2021-04-07 20:29:54.473006"], ["updated_at", "2021-04-07 20:29:54.473006"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Nick O'Teen"], ["password_digest", "$2a$12$F3ECCx08oWDKo7SyjcPrCOcvLtgo8ZdRHlSzcJBRVyEBOKRMyjMvm"], ["session_token", "72iy0P6cEIvXG4MClO1Fkg"], ["created_at", "2021-04-07 20:29:54.673752"], ["updated_at", "2021-04-07 20:29:54.673752"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "jpXAGuWuXKIO9cha0MKHlw"], ["updated_at", "2021-04-07 20:29:54.675298"], ["id", 78]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Doris Schutt"], ["password_digest", "$2a$12$KjJDLOuUeJ0BdSdzRThb0.gUux2KISUzDSys.023WUTCPsyW7tttm"], ["session_token", "VN9R_3iLu0cJnjziKi39vw"], ["created_at", "2021-04-07 20:29:54.872074"], ["updated_at", "2021-04-07 20:29:54.872074"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "uG2mGrcUZzKGwivb1Hydow"], ["updated_at", "2021-04-07 20:29:54.873953"], ["id", 79]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "X. Benedict"], ["password_digest", "$2a$12$PaTA3.j3iNLsPRYt.LX3te9ZCMpi5hki7tR3bo12Sy24Oa2RpKmG2"], ["session_token", "HDFMdWey5N7OpUoCsEq9uw"], ["created_at", "2021-04-07 20:29:55.069507"], ["updated_at", "2021-04-07 20:29:55.069507"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "4hBM8PcpuJjPC1h_-nDYtQ"], ["updated_at", "2021-04-07 20:29:55.071098"], ["id", 80]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Rusty Fossat"], ["password_digest", "$2a$12$UPyE6r7zVTFA05PT95oWXOW6fQ3lJvriD.LPBDmkDQHiCjsjauqL2"], ["session_token", "NrbwLQgBJdnhIl6LmE9GjA"], ["created_at", "2021-04-07 20:37:09.277400"], ["updated_at", "2021-04-07 20:37:09.277400"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Reid Enright"], ["password_digest", "$2a$12$52D8E2p27OBC5.wbrYp8NufecE7wPVVdzfICgsqn/cUXCn3b9EdLW"], ["session_token", "rnpt_72PXZtUgj3uX8wgnA"], ["created_at", "2021-04-07 20:37:09.485800"], ["updated_at", "2021-04-07 20:37:09.485800"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Barry Cade"], ["password_digest", "$2a$12$xWYINE9Kf9Y/tCZS/GOvrO11mn5mjo.w9nRv5btcSo5XSHHL1QqZC"], ["session_token", "L-mRX9WEd8vHvMCikgZZpQ"], ["created_at", "2021-04-07 20:37:09.688789"], ["updated_at", "2021-04-07 20:37:09.688789"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Rory Storm"], ["password_digest", "$2a$12$2lymVmmza7O6SPJwCXKJY.f7iMSOlRZ.6eFSdNF/0uRX6rpf6fW/e"], ["session_token", "QEGr4NZrnMrZsPYloG-trA"], ["created_at", "2021-04-07 20:37:10.071751"], ["updated_at", "2021-04-07 20:37:10.071751"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "john"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$euf0h8LHkTOSImcb3/PQQ.xAYOFH4x15iqyrLRn3W.xWuBpxiYgw6"], ["session_token", "BDened3mPhUMbXlDWRHwTQ"], ["created_at", "2021-04-07 20:37:10.461000"], ["updated_at", "2021-04-07 20:37:10.461000"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "john"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Biff Wellington"], ["password_digest", "$2a$12$xYsHF6ppfnrbyNXwgeaGV.fikm9Fwflh8cdbGWx6IbxFGA5Z5dhw."], ["session_token", "ifpitME-fvY2STR1LDjsTg"], ["created_at", "2021-04-07 20:37:10.668936"], ["updated_at", "2021-04-07 20:37:10.668936"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Crystal Ball"], ["password_digest", "$2a$12$6/a9FKVTxEPBu6M/CT1hpeWnL6h4jq9f1qiB2.GmgBGwHRbp62bga"], ["session_token", "zH2izQyE8x7NQ0Nw_YIa1A"], ["created_at", "2021-04-07 20:37:10.866319"], ["updated_at", "2021-04-07 20:37:10.866319"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "mjBvPXkaxmOz8LFZ3ep0YQ"], ["updated_at", "2021-04-07 20:37:10.867852"], ["id", 87]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Nick O'Teen"], ["password_digest", "$2a$12$nR7/oqkCI1cU3SPRoW3JXe3lbx4I7XhTmCudp302kFFwSAh8NKLSq"], ["session_token", "JX1AAvxFN2snstcHJvFt6w"], ["created_at", "2021-04-07 20:37:11.056453"], ["updated_at", "2021-04-07 20:37:11.056453"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "eASTVYlQm0zvM6BLH-7hIg"], ["updated_at", "2021-04-07 20:37:11.057882"], ["id", 88]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Kenya Dewit"], ["password_digest", "$2a$12$F.EjdbZRKv1ESyFp6/3kF.ee17d39lfD2s6jHTfhHieozo3d2cb0q"], ["session_token", "xt0Q3rxwgqNC5rDA49DxZw"], ["created_at", "2021-04-07 20:37:11.253853"], ["updated_at", "2021-04-07 20:37:11.253853"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "WWGAqenfEfV31eAL5VDOyA"], ["updated_at", "2021-04-07 20:37:11.256527"], ["id", 89]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Bess Twishes"], ["password_digest", "$2a$12$hyjcsBvYViKPvcmg.Jlp6uFBMHzo3lFyknGwDO9v1yc8rV/7aqSqu"], ["session_token", "-3lx48AhgZKxyoJaDBzvQg"], ["created_at", "2021-04-07 20:39:13.359779"], ["updated_at", "2021-04-07 20:39:13.359779"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Bob Inforapples"], ["password_digest", "$2a$12$5kOi4FIQoQ14ME6/sRb/4OTwO8cKhDHXeQAe5VV5oZuacPoD0i8ou"], ["session_token", "5CR458S7y1Rilam1vROdHA"], ["created_at", "2021-04-07 20:39:13.549557"], ["updated_at", "2021-04-07 20:39:13.549557"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Luke Warm"], ["password_digest", "$2a$12$Y0ogahQUtpXjyizXQwKfAufTXqJNCn4rFtiLDVzHLdBQsiuUSd/tu"], ["session_token", "HOcVuEbB417T6EY5CP1GKQ"], ["created_at", "2021-04-07 20:39:13.744286"], ["updated_at", "2021-04-07 20:39:13.744286"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Len DeHande"], ["password_digest", "$2a$12$XojlamT/kZ//bvYGTt2FKuZAiLkzfDDJWXooJksZQwQUy3QG66OYa"], ["session_token", "zT7eNBGRXoW0iOUz8NatrQ"], ["created_at", "2021-04-07 20:39:14.134618"], ["updated_at", "2021-04-07 20:39:14.134618"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "john"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$ToC.7i92.LZGZ4xiw1ZkNODz5SDpdWVwQNOKwY4lber8zClVozI06"], ["session_token", "mtb8Hdupc3PzfAaqdizdhQ"], ["created_at", "2021-04-07 20:39:14.515664"], ["updated_at", "2021-04-07 20:39:14.515664"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "john"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Dwayne Pipe"], ["password_digest", "$2a$12$HMK8pu4iOYGKo3JyFjjmFedCSC2gDMhqQAZmyCRUsZ2ffXJvqNKHW"], ["session_token", "QVRvGk6vRjjoJN5iD8FMmQ"], ["created_at", "2021-04-07 20:39:14.712406"], ["updated_at", "2021-04-07 20:39:14.712406"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Reid Enright"], ["password_digest", "$2a$12$xwC8EnyEoeFdmpYeLN7T2.9aewjBTc740vHPfGsAMk9SuE5l8D/Xy"], ["session_token", "DQaTA9EtBNJgX7dqckOvSw"], ["created_at", "2021-04-07 20:39:14.909740"], ["updated_at", "2021-04-07 20:39:14.909740"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "FHKnb7Sd3P8uR8gqrcyr2g"], ["updated_at", "2021-04-07 20:39:14.911699"], ["id", 7]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Jacques Strap"], ["password_digest", "$2a$12$8SRAVzkEayKAEgGm0mNeBODL4tjtH//9C3ODK05/vBWZw6f.HRYbq"], ["session_token", "-mBeREE9NGnyHz5ySUmTiw"], ["created_at", "2021-04-07 20:39:15.107392"], ["updated_at", "2021-04-07 20:39:15.107392"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "E1y6eB1XREBm9Oh3YmVpwQ"], ["updated_at", "2021-04-07 20:39:15.108954"], ["id", 8]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Di O'Bolic"], ["password_digest", "$2a$12$rpLvb.xEZejF9USIdr.tMuau5D9wHuKYnYBPIfAzlhvyNDvBpLGqS"], ["session_token", "A7vwYsBfuIpb03L_H4wJsw"], ["created_at", "2021-04-07 20:39:15.303746"], ["updated_at", "2021-04-07 20:39:15.303746"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "hyKkBISkhrFbf17UdIgiag"], ["updated_at", "2021-04-07 20:39:15.305422"], ["id", 9]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Marco DeStinkshun"], ["password_digest", "$2a$12$imY/TFQrGxiEzHmZ.7mo/.fMoqWgPik9shpVUgQubgibljfcyOXra"], ["session_token", "tsdMrjoicphwcL91_YuwNg"], ["created_at", "2021-04-07 20:40:26.946067"], ["updated_at", "2021-04-07 20:40:26.946067"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Kay Neine"], ["password_digest", "$2a$12$zT9/v/6I1dpfMQWNLU.kFeDvVUOH6r.dNMXOJLhScLkbt8/vyNVi6"], ["session_token", "-HgfwqGax79tuAWOpbwIsw"], ["created_at", "2021-04-07 20:40:27.138912"], ["updated_at", "2021-04-07 20:40:27.138912"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Tish Hughes"], ["password_digest", "$2a$12$X7hlBYC7fwePgFS85tTc7.6IjN9jCBKOenkXCEfaAzOPp06zgG2O."], ["session_token", "q09npBvuZnQkhzvO-yxExQ"], ["created_at", "2021-04-07 20:40:27.330707"], ["updated_at", "2021-04-07 20:40:27.330707"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Polly Ester"], ["password_digest", "$2a$12$T2C6AKIZOXzyAALCy0D9deDKEI8/YhtzgatvLsccFsLDGycVyuwdq"], ["session_token", "CO2qbWsTvJRpSz9tQrDhyw"], ["created_at", "2021-04-07 20:40:27.708964"], ["updated_at", "2021-04-07 20:40:27.708964"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$L41AdGXR8zZlUVzfpaU1du4X68P2cS1kgL/vXJrMDVw5DocLX4HPe"], ["session_token", "hKVHD1VvMjrvLEipsFYNoA"], ["created_at", "2021-04-07 20:40:28.092320"], ["updated_at", "2021-04-07 20:40:28.092320"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "john"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$stQtLV9NtICwP54z.SZ74Oa2SpKSjG7QyLA4KtsZTAdwvMUZ4yEqO"], ["session_token", "YFjnnb8NKO9f7I5gwuKZnA"], ["created_at", "2021-04-07 20:40:28.479586"], ["updated_at", "2021-04-07 20:40:28.479586"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "john"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Agatha L. Outtathere"], ["password_digest", "$2a$12$Bfh8aWMD..hylTVpFvMmDO.EkiW16bVV.WVn2C2oalFnzb2cCzchi"], ["session_token", "tOsEKvZS6ytP5hGFxR6-Dg"], ["created_at", "2021-04-07 20:40:28.873386"], ["updated_at", "2021-04-07 20:40:28.873386"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Thor Luther"], ["password_digest", "$2a$12$iY12/ZB3tDjb7VLmyVF5FOHAxEu40C5DE/808VT.Mh6epsUBVPFx2"], ["session_token", "KAFXVyWsPnqHPsFRh-rTfw"], ["created_at", "2021-04-07 20:40:29.070451"], ["updated_at", "2021-04-07 20:40:29.070451"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "mFmoiinbZJStRnzC26vJyw"], ["updated_at", "2021-04-07 20:40:29.071935"], ["id", 8]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Ty Knotts"], ["password_digest", "$2a$12$LzDofyKxv9cYLFMTAOfsXONAPL2kdaiwXsPSnhdWWrmtVvjgch7pO"], ["session_token", "kPKw3rgF9v2fCpewF-G1Xw"], ["created_at", "2021-04-07 20:40:29.265152"], ["updated_at", "2021-04-07 20:40:29.265152"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "hZ2z5FcRZygx0VNYmcwlcA"], ["updated_at", "2021-04-07 20:40:29.267191"], ["id", 9]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Sy Burnette"], ["password_digest", "$2a$12$JrsooZ/XwB5udCAKLQnYzui9NLLhtKH.qnu9mYu0OhQhYk8m0NeO6"], ["session_token", "Ced0kUgohuPYLi0408AEMA"], ["created_at", "2021-04-07 20:40:29.463333"], ["updated_at", "2021-04-07 20:40:29.463333"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "7lJtEv3JfvK1-eqJsMg8jw"], ["updated_at", "2021-04-07 20:40:29.465083"], ["id", 10]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Ilene Dover"], ["password_digest", "$2a$12$3p1XmeJyrI/A1NqslYgbOeO2EsZtwHzEsQz8rF2wYRcxG0ZHOqRGe"], ["session_token", "IAorJRsAijFpKOfSXHaURg"], ["created_at", "2021-04-07 20:40:36.200791"], ["updated_at", "2021-04-07 20:40:36.200791"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Alex Blaine Layder"], ["password_digest", "$2a$12$gjIRkT7TLIscjzgIsy09eeeb4.zden4Ju.QgzZehuakfJzZvy9uKi"], ["session_token", "zyyz0fg53lwijOuRXjR7jw"], ["created_at", "2021-04-07 20:40:36.393418"], ["updated_at", "2021-04-07 20:40:36.393418"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Anna Septic"], ["password_digest", "$2a$12$0PNZs1AkejEjGA9FFaLT0u2vJdMDEdlH6C4SxOWOmT/5dzFvsZQK2"], ["session_token", "DcxS8NIsDFaoAniw3N7nUw"], ["created_at", "2021-04-07 20:40:36.596114"], ["updated_at", "2021-04-07 20:40:36.596114"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Anita Bathe"], ["password_digest", "$2a$12$7l8BVE4wKwncwpRTUm6/Muy09CJd23OGCkRzBXvHRCiwYt5vUe3rS"], ["session_token", "U9IVCTCtv-MZu11HvVD7rQ"], ["created_at", "2021-04-07 20:40:36.981398"], ["updated_at", "2021-04-07 20:40:36.981398"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "john"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (1.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$IgNT3vP/2zK0/dVFZkq/RumShnMJ8s2L.pGRkCIwlGwUtQjwBXd36"], ["session_token", "_e5JUoobr4egzjvHfm6tGQ"], ["created_at", "2021-04-07 20:40:37.370885"], ["updated_at", "2021-04-07 20:40:37.370885"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "john"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Perry Mecium"], ["password_digest", "$2a$12$UnsfrTOJQ2kYSciw6l4hBOTSe4Xjzt7Cw97NIDL7Zy6Yj8PjcIR/m"], ["session_token", "ifWWBatft96vmKmdAJVYzg"], ["created_at", "2021-04-07 20:40:37.571733"], ["updated_at", "2021-04-07 20:40:37.571733"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Eve Hill"], ["password_digest", "$2a$12$MbR4.gYJjTOpBKnKvF30PuSatNH7Wwy97Bc1D3PhWXrtPTfN9C3BO"], ["session_token", "MBQcR8_4FGP-N2I96uoC1g"], ["created_at", "2021-04-07 20:40:37.767094"], ["updated_at", "2021-04-07 20:40:37.767094"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "QnVx1QsE5pNPGkt13QTBUA"], ["updated_at", "2021-04-07 20:40:37.768395"], ["id", 17]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Joe Kerr"], ["password_digest", "$2a$12$rkWMGgW2rIjUeD7KLBM15u9Om8BuH6.LcE6T2lSlI/jf8Dif.vRqa"], ["session_token", "AkspPweq7RfZgj2shA43QA"], ["created_at", "2021-04-07 20:40:37.956589"], ["updated_at", "2021-04-07 20:40:37.956589"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "4jGfVElF4PcmhOAN91hMMA"], ["updated_at", "2021-04-07 20:40:37.958118"], ["id", 18]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Bill Ding"], ["password_digest", "$2a$12$F0h9XtTymCUHIhPqT8nY5.p2k9NyjuVIlqttrQ3qG44512/9OiNZO"], ["session_token", "N2eJZC6oFc9ht4SAlLneWA"], ["created_at", "2021-04-07 20:40:38.152213"], ["updated_at", "2021-04-07 20:40:38.152213"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "83uNWk9MqnvrTZkZArbfJw"], ["updated_at", "2021-04-07 20:40:38.153779"], ["id", 19]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$tbfgb0Noit2HdW1hMMuAC.5QD36cfeqAbfWipnFhpIOOcsCQ4ijXy"], ["session_token", "duQ0Gz003w-D4kR-IRihDg"], ["created_at", "2021-04-07 20:45:06.541050"], ["updated_at", "2021-04-07 20:45:06.541050"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$4Ih4HSpr20T6.xSao0vTl.SkC8SVnNLJcIV05joBn8wUPfCcjcQyq"], ["session_token", "eNkNjAF7eAM9RaiZdRjmkA"], ["created_at", "2021-04-07 20:45:07.486216"], ["updated_at", "2021-04-07 20:45:07.486216"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$rMkb3yze13kG2CXX8s6O7.aZivWtcUlquWebNwOUVhsE8D0P8Lzjy"], ["session_token", "bm1JF2dIH6ZulbNKriMIRw"], ["created_at", "2021-04-07 20:45:07.680071"], ["updated_at", "2021-04-07 20:45:07.680071"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$XQfGXqZMYCnkcp2SZFdNie94mZH3fW9E7oY3PtwScuymsuFSI/Fuu"], ["session_token", "itlE0jIPOC2lrhDfupk-Hg"], ["created_at", "2021-04-07 20:45:07.872971"], ["updated_at", "2021-04-07 20:45:07.872971"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$HJRF3UbloHDJmIVMzD1DZetj4BOUjUvpwgBreADU6KSffV.jfMZ66"], ["session_token", "q9jSsd1gL_aLDb0zR6_kQw"], ["created_at", "2021-04-07 20:45:08.075960"], ["updated_at", "2021-04-07 20:45:08.075960"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$PZJkw8fx3o1Vz0mvHBJqP.//I6hGqIToXyAIoEUOYV8/dQnb66XfW"], ["session_token", "otVRx8xLq4vBM1GGoXvA5g"], ["created_at", "2021-04-07 20:45:08.267278"], ["updated_at", "2021-04-07 20:45:08.267278"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$cb664eKByUVnYCKUHKBYxuALKKbyZZm/EkmdZsnVo/bP0v9qpi78q"], ["session_token", "nrHf0nNdiOrtYX-2ViLkaw"], ["created_at", "2021-04-07 20:45:08.466324"], ["updated_at", "2021-04-07 20:45:08.466324"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$zjVWo6wRdtnmkvnZL2ntZeMyAw/7hN8/6xc6WtmGfHUx7ZXikfOPG"], ["session_token", "WAHfncT6ziB3keq9C2Ix3Q"], ["created_at", "2021-04-07 20:45:08.841883"], ["updated_at", "2021-04-07 20:45:08.841883"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "john"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$9Qrkhb06DmKcDNiN1cDbNOE/7RxQrmXMvBeIVyj9pw.PGM6OXX1Xq"], ["session_token", "_94GKbQiYNNyg3w7brFBHw"], ["created_at", "2021-04-07 20:45:09.229749"], ["updated_at", "2021-04-07 20:45:09.229749"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "john"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$M3eN6BIvb07Ttzlf4P35q./xkmpoUcE/CTg5UpZbihzQ3Xx1LGHVq"], ["session_token", "ksCM1yihxuzW8rbG8eJCkA"], ["created_at", "2021-04-07 20:45:09.437260"], ["updated_at", "2021-04-07 20:45:09.437260"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$G/UZdzITHz6xzsh4k/DgBueYehfabBcbGSjc8AP53C0OySiEoG/D."], ["session_token", "e7M74BXk2aCRctLjca3N3w"], ["created_at", "2021-04-07 20:45:09.629254"], ["updated_at", "2021-04-07 20:45:09.629254"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "FCWC8Nk2wGPoz628-GkxUw"], ["updated_at", "2021-04-07 20:45:09.630985"], ["id", 30]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$1CDnZDTkXP3mthXpkOoGU.zDQBCGcmtltWXFxH93n5cqoAMZt0TPu"], ["session_token", "yWhCdKdYE5tF-pkQLFT0NQ"], ["created_at", "2021-04-07 20:45:09.822824"], ["updated_at", "2021-04-07 20:45:09.822824"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "zrfmHj6t1lVOzlPdVhJ-wQ"], ["updated_at", "2021-04-07 20:45:09.824573"], ["id", 31]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$nxyb68BpJWRBHe.d3JFQeuJBm6Xx/tL.h.Ape1tRtBJlmPS/EUje."], ["session_token", "dsPcP7L4Mo4abS-dQOj1QA"], ["created_at", "2021-04-07 20:45:10.024395"], ["updated_at", "2021-04-07 20:45:10.024395"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "fMWiu0Paxyi1OXjSDFeAwA"], ["updated_at", "2021-04-07 20:45:10.025967"], ["id", 32]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$S7oFSqIBJSQUp3tkpPSDGeV14KfD9EQ8naxsg6J/GpDpg7ualGfke"], ["session_token", "t1W-oaCdfVxu5lSNo0sJUQ"], ["created_at", "2021-04-07 20:52:55.490075"], ["updated_at", "2021-04-07 20:52:55.490075"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$OqrlK0LiFsrvhOE8Urp2UeGjz7a55Dp2XZ1iO5vFvp6laBrNBmGDu"], ["session_token", "I3qupE5KU0mGy18e3fjfBw"], ["created_at", "2021-04-07 20:52:56.441923"], ["updated_at", "2021-04-07 20:52:56.441923"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$cUbvzWl9LDkf5WlguVbupuVTwxayt60DWuHWDB/kxezAAZ4b8CP8e"], ["session_token", "pbUoyW917eF-eokUOFpTDg"], ["created_at", "2021-04-07 20:52:56.638175"], ["updated_at", "2021-04-07 20:52:56.638175"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$qSHYUL/989Erp32Kz5289uqk1oe2tF0mZxzSrlmwxS5oKTl5U96gu"], ["session_token", "1jfR19UV8GPuxZMgE8Wz3A"], ["created_at", "2021-04-07 20:52:56.835983"], ["updated_at", "2021-04-07 20:52:56.835983"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$BHg0pXdo5XuaDjqf8aAcSOWkEtVLHunlvcmPjQ9eXhJQxyhkA50E6"], ["session_token", "4GnQngXuZ3CmvVOe63BneA"], ["created_at", "2021-04-07 20:52:57.408041"], ["updated_at", "2021-04-07 20:52:57.408041"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$5rxEttQ3qKBwslCjBKA6yOXY22TKKkHzPvcGQRmAHeyVHhyjA1una"], ["session_token", "o08VzEbMnwjF1iaZVlZ7hg"], ["created_at", "2021-04-07 20:52:57.607446"], ["updated_at", "2021-04-07 20:52:57.607446"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$9X1b3h8E/SWo2f1/ga3kAeloim/LXEdQe2t233zgNJ6KwSMIhfigG"], ["session_token", "Np2957SlsizLxDC-2hs5yQ"], ["created_at", "2021-04-07 20:52:57.805245"], ["updated_at", "2021-04-07 20:52:57.805245"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$6pd.7eCAXyaTA6hPeIBoOubjEksxfsfamXs49pKDYlAKr/5vNI.pa"], ["session_token", "70r-MoGAgdDvE0WiYdKTaw"], ["created_at", "2021-04-07 20:52:58.187823"], ["updated_at", "2021-04-07 20:52:58.187823"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$78BK0BKJzTPB4ngAkdThtu41imkREgrvBrIwGuNegRjqFZk53uFmG"], ["session_token", "yD8vGFz-3T8p6HXJ0jYtmg"], ["created_at", "2021-04-07 20:52:58.569881"], ["updated_at", "2021-04-07 20:52:58.569881"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "john"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$8V0q9Bl9s4Dv70.drGJWuOv5AlV6jDV1q2e9YVY7TX7dXqr0j4t1K"], ["session_token", "IGsHKA16Md9hgrvXYPZ7PA"], ["created_at", "2021-04-07 20:52:58.960631"], ["updated_at", "2021-04-07 20:52:58.960631"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "john"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$2v.gFmpjvtOhNYhOh.ZTUuws/ZKvIgg1FFx2zKbuYx4uOvOgpgfUi"], ["session_token", "dWCJ9s2X_Cy9ickPuRkaBg"], ["created_at", "2021-04-07 20:52:59.381627"], ["updated_at", "2021-04-07 20:52:59.381627"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$5l3IvJoSO5tpKoeIKDEd2e5rbxYPyQZpyeHl9JmcFRd2W3pB6IaDm"], ["session_token", "m3n6gqnNpqZQdkUFo3aNZQ"], ["created_at", "2021-04-07 20:52:59.581356"], ["updated_at", "2021-04-07 20:52:59.581356"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "B2f8_jxEHe3lpPc-0icUQg"], ["updated_at", "2021-04-07 20:52:59.583285"], ["id", 44]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$gQdgbPCK4O8QXRvTmcBO4OocmnMI0s/b/LKQhPXwXKsDmMX8l9gb6"], ["session_token", "ymKpwR1xfS3uANT-h1xNAQ"], ["created_at", "2021-04-07 20:52:59.777639"], ["updated_at", "2021-04-07 20:52:59.777639"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "qcDNqOLxXpDA14GNzCnzVQ"], ["updated_at", "2021-04-07 20:52:59.780593"], ["id", 45]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["password_digest", "$2a$12$Ko1eo9afAffRcJzbPyXQo.tUmtwOA61uB1nyOPPIHkWD18t2fwXTG"], ["session_token", "7Sysg3LXB0H3SNWoyqgYaw"], ["created_at", "2021-04-07 20:52:59.975420"], ["updated_at", "2021-04-07 20:52:59.975420"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "kaPhaL2KkRYUF_XzPAd58Q"], ["updated_at", "2021-04-07 20:52:59.977426"], ["id", 46]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
