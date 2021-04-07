@@ -19,9 +19,26 @@ RSpec.describe UsersController, type: :controller do
         end
     end
 
-    describe 'get#new'
+    describe 'get#new' do
+        it 'renders the new user page' do
+            get :new
+            expect(response).to render_template(:new)
+        end
+    end
 
-    describe 'post#create'
+    describe 'post#create' do
+
+        context 'with valid params'
+
+        context 'with invalid params' do
+            let(:user) { create(:user) }
+            it 'should render the users new (signup) page' do
+                post :create, params: { user: {username: ""}}
+                expect(response).to render_template(:new)
+            end
+        end
+
+    end
 
     describe 'get#edit'
 
